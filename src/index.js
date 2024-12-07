@@ -17,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // Utilisez la méthode render sur la nouvelle racine
 root.render(
   <React.StrictMode>
-      <Router>
+      <Router basename="/Mon-portfolio">
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
