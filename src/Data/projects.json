@@ -1,0 +1,69 @@
+[
+    {
+    "id": 1,
+    "title": "NinaCarducci",
+    "description": "Ce projet met en avant le portfolio et les services de Nina Carducci, une photographe professionnelle. L’objectif était d’optimiser le référencement (SEO) et l’accessibilité du site en améliorant ses performances.",
+    "image": "Nina-Carducci.webp",
+    "link": "https://github.com/Imanedevweb/NinaCarducci.git",
+    "Outils": "Lighthouse, Wave, devTools",
+    "Compétences":"Optimisation du référencement (SEO) et de l'accessibilité"
+  },
+  {
+    "id": 2,
+    "title": " Kasa",
+    "description": "Une application web de location immobilière dévloppé avec React. Ce projet  avait pour objectif de créer une interface utilisateur interactive et attrayante.",
+    "image": "Kasa.webp",
+    "link": "https://github.com/Imanedevweb/Kaza.git",
+    "Outils": "React, React Router, Create React App et Node.js, SASS et CSS",
+    "langage": "Javascript, React",
+    "Compétences":"Conception d'applications web dynamique et interactives."
+  },
+  {
+    "id": 3,
+    "title": " Argent Bank",
+    "description": "Développement d'une application bancaire permettant la gestion des comptes utilisateur. L'objectif principal était d'intégrer des données depuis une API et de gérer les états avec Redux.",
+    "image": "Argent-Bank.webp",
+    "link": "https://github.com/Imanedevweb/Argent-Bank.git",
+    "Outils":"React, Redux,Swagger, Node.js",
+    "Compétences":"Implémentation de front-end interactif avec appels AI REST et gestion des données avec Redux."
+  },
+  {
+    "id": 4,
+    "title": " 724Events",
+    "description": "Ce projet pésente une plateforme événementielle sous forme de site web `one-page`. Ce projet visait à déboguer et finaliser un site existant tout en rédigeant un cahier de recette..",
+    "image":"724events.webp",
+    "link": "https://github.com/Imanedevweb/724-Events.git",
+    "Outils": "DevTools, React, React Develper Tools, Yarn et Node.js",
+    "Compétences": "Débogage, rédaction de cahiers de recette, réalisation de tests unitaires et fonctionnels."
+  },
+  {
+    "id": 5,
+    "title": " Print-it",
+    "description": "Dynamisation du site internet statique d’une imprimerie familiale en y ajoutant un carrousel interactif. Ce projet a permis de mettre en pratique les fondamentaux de JavaScript.",
+    "image": "Print-it.webp",
+    "link": "https://github.com/Imanedevweb/-5-Print-it.git",
+    "OutilsUtilisés": "JavaScript, HTML, CSS",
+    "CompétencesAcquises": "Programmation en JavaScript, développement des sites web dynamiques."
+  },
+   {
+    "id": 6,
+    "title": "Booki",
+    "description": "Conception de la page d’accueil responsive d’une agence de voyage en respectant une maquette.",
+    "image": "Booki.webp",
+    "link": "https://github.com/Imanedevweb/3-Imane-Bouilouta.git",
+    "Outils": "Figma, HTML et CSS",
+    "Compétences": "Création d’interfaces web adaptatives et intégration de contenu fidèle à une maquette."
+
+  },
+  {
+    "id": 7,
+    "title": "Oh my Food",
+    "description": "Développement d’un site mobile-first qui répertorie les menus de restaurants gastronomiques. L’objectif était d’améliorer l’interface utilisateur avec des animations CSS.",
+    "image": "Ohmyfood.webp",
+    "link": "https://github.com/Imanedevweb/Oh-my-Food.git",
+    "Outils": "Figma, Git, GitHub ",
+    "langage": "Sass, HTML",
+    "Compétences":"Conception de sites web responsives et intégration d’animations CSS."
+  }
+]
+

@@ -1,0 +1,24 @@
+body{
+    margin: auto;
+    font-family: "Nova Square";
+}
+
+
+a {
+    text-decoration: none;
+    color:#f6f6f6
+}
+
+main{
+    margin:50px;
+    border-radius: 25px;
+
+     @media (min-width: 375px) and (max-width:1024px){
+        margin: 20px 0px;
+        background-color: #ffff;
+
+        &home{
+            margin: 0 20px;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #302f30;
+  
+}
+h1{
+  display: flex;
+  flex-direction: wrap;
+  gap:10px;
+  color: rgb(249, 245, 241);
+  .firstname
+  .lastname{
+    font-size: 2rem; 
+  }
+  span.role{
+    font-size: 15px;
+    font-weight: 50;
+  }
+}
+.main-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-weight: 50;
+}
+
+.logo
+.logo-image {
+    max-width: 100%;
+    width: 200px;
+  }
+button{
+  border: none;
+  color: #fff;
+  background-color: inherit;
+  font-family: "Nova Square";
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+@media (min-width: 375px) and (max-width:1024px){
+    h1 {
+    flex-direction: column;  
+  }    
+  
+   }
