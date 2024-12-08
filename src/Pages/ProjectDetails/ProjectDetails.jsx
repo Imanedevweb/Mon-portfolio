@@ -16,7 +16,7 @@ const ProjectDetails = () => {
     <div className="project-details">
       <h2 className="titleProject">{project.title}</h2>
       {/* Bannière */}
-      <div className="banner-Project" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/Projets/Projets/${project.image})` }}>
+      <div className="banner-Project" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/Projets/${project.image})` }}>
       </div>
 
       {/* Contenu principal */}
