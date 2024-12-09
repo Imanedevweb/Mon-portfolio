@@ -14,6 +14,19 @@ const Header = () => {
       }
     }
   };
+  const handleContactClick = (e) => {      
+    e.preventDefault(); // Empêche le changement de route
+    
+    const contactSection = document.getElementById("Contact");
+
+    if (location.pathname === "/about-me" || location.pathname === "/") { 
+            // Scroller directement vers la section "Contact" si l'utilisateur est sur "/" ou "/about-me"
+
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
 
   return (
     <header className="header">
@@ -28,7 +41,7 @@ const Header = () => {
           Projets
         </Link>
         <Link to="/about-me">About-me</Link>
-        <Link to="#contact"> Contact</Link>
+        <Link to= "#contact" onClick={handleContactClick}> Contact</Link>
       </nav>
     </header>
   );

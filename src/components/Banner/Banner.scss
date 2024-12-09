@@ -17,16 +17,18 @@
   .text-container {
     position: absolute;
     display: flex;
-    flex-direction: column; /* Les lignes se superposent */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Taille de texte de base */
     line-height: 1.5;
+    padding: 0 20px; /* Pour donner de l'espace sur les côtés sur les petits écrans */
 
+    /* Animation pour chaque ligne */
     .text {
-      display: inline-block; /* Chaque ligne est animée indépendamment */
+      display: inline-block;
       white-space: nowrap;
       border-right: 2px solid #fff;
       overflow: hidden;
@@ -52,6 +54,7 @@
     }
   }
 
+  /* Animation typewriter */
   @keyframes typewriter {
     from {
       width: 0;
@@ -61,9 +64,49 @@
     }
   }
 
+  /* Animation pour le clignotement du curseur */
   @keyframes blink {
     50% {
       border-color: transparent;
     }
   }
+}
+  /* Media Query pour adapter la taille du texte */
+  
+
+@media (min-width: 375px) and (max-width:1024px){
+  .banner {
+    border-radius: 10px;
+    margin: 0;
+    height: inherit;
+  img {
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .text-container {
+   
+    font-size: 2.2vw;
+  
+    /* Animation pour chaque ligne */
+    
+
+    /* Animation différée pour chaque ligne */
+    .line1 {
+      animation-delay: 0s;
+    }
+
+    .line2 {
+      animation-delay: 3s;
+    }
+
+    .line3 {
+      animation-delay: 6s;
+    }
+
+    .line4 {
+      animation-delay: 9s;
+    }
+  }
+}
 }

@@ -12,13 +12,18 @@ a {
 main{
     margin:50px;
     border-radius: 25px;
-
-     @media (min-width: 375px) and (max-width:1024px){
-        margin: 20px 0px;
+}
+// Responsives//
+@media (min-width: 375px) and (max-width:1024px){
+    main{    
+    margin: 20px 0px;
         background-color: #ffff;
 
         &home{
             margin: 0 20px;
+        }
+        body{
+            width: 50%;
         }
     }
 }

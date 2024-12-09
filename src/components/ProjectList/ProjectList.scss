@@ -12,3 +12,11 @@
   text-align: center;
   margin-top: 50px;
 }
+@media (min-width: 375px) and (max-width:1024px){
+  .section-title{
+    margin-top: 40px;
+  }
+  .projects-list{
+    margin: 0;
+  }
+}

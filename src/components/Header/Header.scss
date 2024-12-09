@@ -8,10 +8,10 @@ header{
 }
 h1{
   display: flex;
-  flex-direction: wrap;
+  flex-direction: row;
   gap:10px;
   color: rgb(249, 245, 241);
-  .firstname
+  .firstname,
   .lastname{
     font-size: 2rem; 
   }
@@ -20,31 +20,26 @@ h1{
     font-weight: 50;
   }
 }
+
 .main-nav{
   display: flex;
   flex-direction: row;
+  font-size: 1.2rem;
   gap: 20px;
   font-weight: 50;
 }
 
-.logo
-.logo-image {
-    max-width: 100%;
-    width: 200px;
-  }
-button{
-  border: none;
-  color: #fff;
-  background-color: inherit;
-  font-family: "Nova Square";
-  font-size: 18px;
-  font-weight: 500;
-  border: none;
-  cursor: pointer;
-}
 @media (min-width: 375px) and (max-width:1024px){
     h1 {
     flex-direction: column;  
   }    
+
+    .main-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+  }
   
-   }
+  }
+   

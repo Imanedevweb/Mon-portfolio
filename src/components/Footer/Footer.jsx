@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 
-const Footer = () => {
+const Footer = ({contactRef}) => {
   const contactInfo = {
     name: "Imane Kherbouche",
     email: "imane.kherbouche@gmail.com",
@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__info">
-          <h2 className="footer__title" id="contact">Contactez-moi</h2>
+          <h2 className="footer__title" id="Contact" ref={contactRef}>Contactez-moi</h2>
           <p>Email : <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a></p>
           <p>Téléphone : <a href={`tel:${contactInfo.phone}`}>{contactInfo.phone}</a></p>
         </div>
