@@ -4,29 +4,30 @@ import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const location = useLocation();
+ 
+  // Fonction générique pour le défilement vers une section
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const handleProjectsClick = (e) => {
     if (location.pathname === "/") {
       e.preventDefault(); // Empêche le changement de route
-      const section = document.getElementById("ProjectList");
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
-      }
+      scrollToSection ("ProjectList");
     }
   };
+
   const handleContactClick = (e) => {      
     e.preventDefault(); // Empêche le changement de route
-    
-    const contactSection = document.getElementById("Contact");
-
     if (location.pathname === "/about-me" || location.pathname === "/") { 
             // Scroller directement vers la section "Contact" si l'utilisateur est sur "/" ou "/about-me"
-
-      if (contactSection) {
-        contactSection.scrollIntoView({ behavior: "smooth" });
-      }
     }
+    scrollToSection ("Contact")
   };
+
 
   return (
     <header className="header">
@@ -41,7 +42,7 @@ const Header = () => {
           Projets
         </Link>
         <Link to="/about-me">About-me</Link>
-        <Link to= "#contact" onClick={handleContactClick}> Contact</Link>
+        <Link to= "#Contact" onClick={handleContactClick}> Contact</Link>
       </nav>
     </header>
   );
