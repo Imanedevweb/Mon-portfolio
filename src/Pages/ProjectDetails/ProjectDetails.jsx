@@ -24,7 +24,7 @@ const ProjectDetails = () => {
         <h3>Description :</h3>
         <p>{project.description}</p>
         <h3>Langages, outils et frameworks utilisés: </h3>
-        <p>{project.technologie}</p>
+        <p>{project.technologies}</p>
         <h3>Compétences acquises : </h3>
         <p>{project.Compétences}</p>
       </section>
