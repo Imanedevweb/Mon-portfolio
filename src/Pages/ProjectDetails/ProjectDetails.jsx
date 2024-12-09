@@ -23,8 +23,8 @@ const ProjectDetails = () => {
       <section className="content-Project">
         <h3>Description :</h3>
         <p>{project.description}</p>
-        <h3>Outils utilisés : </h3>
-        <p>{project.Outils}</p>
+        <h3>Langages, outils et frameworks utilisés: </h3>
+        <p>{project.technologie}</p>
         <h3>Compétences acquises : </h3>
         <p>{project.Compétences}</p>
       </section>
